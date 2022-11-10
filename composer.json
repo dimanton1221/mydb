@@ -6,6 +6,6 @@
     "heroku/heroku-buildpack-php": "*"
   },
   "scripts" : {
-    "post-install-cmd" : "composer create-project phpmyadmin"
+    "post-install-cmd" : "composer create-project phpmyadmin/phpmyadmin"
   }
 }
