@@ -1,5 +1,5 @@
 <?php
-$url = parse_url(getenv("CLEARDB_DATABASE_URL"));
+$url = parse_url(getenv("MYSQL_URL"));
 print_r($url);
 phpinfo();
 
